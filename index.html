@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kavya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b43974ea8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h3> <span>K</span>avya  </h3>
+               
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm Kavya </h1>
+                <p>a Full Stack Developer</p>
+                
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG20221230121443.jpg" class="user">
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am kavya a passionate software engineering graduate with well-developed 
+                        skills in Web Development and various programming languages.
+                         Have done projects in both web development and machine learning. 
+                        I'm always up for learning new skills.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links"onclick="opentab('Certifications')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span></li>
+                                <li><span1>CSS</span></li>
+                                <li><span>Java Script </span></li>
+                                <li><span1>Angular</span></li>
+                                <li><span>Java</span></li>
+                                <li><span1>SQL</span></li>
+                                <li><span>Spring Boot </span></li>
+                                <li><span1>Python</span></li>
+
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                
+
+                                <li><span>2018-2022</span> <br> Bachelor of Technology(CSE)</li>
+                                <li><span>2016-2018</span> <br> Intermediate(MPC)</li>
+                                <li><span>2015-2016</span> <br> SSC</li>
+                                
+
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Certifications">
+                            <ul>
+                                
+
+                                <li><span>Frontend Development</span> <br>Internship by SkillSafari.</li>
+                                <li><span>Full Stack Development</span> <br> Internship by SkillSafari.</li>
+                                <li><span>IEEE </span> <br> Certificate of pubishing a paper on IEEE  International Conference on Intelligent Systems, Smart and Green Technologies.
+                                 </li>
+                                
+
+                                
+                            </ul>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                   <h2> Web Designing </h2>
+                   <p>Creating responsive websites by combining front-end technologies like HTML, CSS, JavaScript, and Angular with back-end technologies like SQL and Spring Boot  </p>
+                 
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars"></i>
+                    <h2> Coding </h2>
+                    <p>Working knowledge of a variety of programming languages, such as C, Java and Python.  </p>
+                    
+                 </div>
+                 <!-- <div>
+                    <i class="fa-brands fa-dashcube"></i>
+                    <h2> Machine Learning </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eius veritatis voluptate quis mollitia ut, hic soluta enim quaerat velit?  </p>
+                   
+                 </div> -->
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="/images/hos.png" alt="">
+                <div class="layer">
+                    <h3>Hospital Management website</h3>
+                    <p>Designed a Hospital Management Website, which can be used for patients and doctors as well and 
+                        admin can perform various functionalities.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/land.png" alt="">
+                 <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>Designed the frontend part landing page, with requried validation which is used for registration</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/crime.png" alt="">
+                <div class="layer">
+                    <h3>Crime Spot Detection</h3>
+                    <p>Crime Spot Detection is a machine learning project which can be used for detecting crime percentage of area .</p>
+                    
+                </div>
+            </div>
+         </div>
+         <a href="https://github.com/kavyapalakodeti" class="btn">See More</a>
+            
+           
+        </div>
+
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> palakodeti.kavya@mphasis.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7997661671</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/kavyapalakodeti"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kavya1671/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Palakodeti_Kavya_Resume_03-12-2022-14-43-19.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright <i class="fa-regular fa-copyright"></i> Kavya</p>
+        </div>
+
+    </div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent  of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxhS5UEGlp7KfheJ3EfB_FXfmhgHRwN9I_DDRwddswCAWMCVKWM-dKo__pn5jVPev9ZzQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
